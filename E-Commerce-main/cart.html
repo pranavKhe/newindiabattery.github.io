@@ -27,50 +27,27 @@
                     <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
-            <a href="Under construction/UC.html">
+            <a href="cart.html">
 
-                <img src="images/cart.png" alt="" width="30px" height="30px">
+                <img src="images/cart.png" alt="" width="30px" height="30px" />
             </a>
             <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
         </div>
     </div>
-
-
-
-    <div class="small-container single-product">
-        <div class="row">
-            <div class="col-2">
-                <img src="images/INB1.png" alt="" width="100%" id="ProductImg">
-
-                <div class="small-img-row">
-                    <div class="small-img-col">
-                        <img src="images/INB2.png" alt="" width="100%" class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="images/INB3.png" alt="" width="100%" class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="images/INB4.png" alt="" width="100%" class="small-img">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="images/INB5.png" alt="" width="100%" class="small-img">
-                    </div>
-
-
-                </div>
-
-            </div>
-            <div class="col-2">
-                <p>Home / Inveters</p>
-                <h1>Luminous Zelio+ 1100 Home Pure Sinewave Inverter UPS - Black</h1>
-                <h4>Rs.6499</h4>
-                <input type="number" value="1">
-                <a href="" class="btn">Add to Cart</a>
-                <h3>Product Details <i class="fa fa-indent"></i></h3>
-                <br>
-            </div>
-        </div>
     </div>
+<div class="small-container cart-page">
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Sub Total</th>
+        </tr>
+    </table>
+</div>
+
+</div>
+
 
     <div class="footer">
         <div class="container">
@@ -107,7 +84,7 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright &copy; 2023 - www.newindiabattery.in</p>
+            <p class="copyright">Copyright &copy; 2020 - www.newindiabattery.in</p>
         </div>
     </div>
 
@@ -127,26 +104,7 @@
         }
     </script>
 
-
-    <script>
-
-        var ProductImg = document.getElementById("ProductImg");
-        var SmallImg = document.getElementsByClassName("small-img");
-
-        SmallImg[0].onclick = function () {
-            ProductImg.src = SmallImg[0].src;
-        }
-        SmallImg[1].onclick = function () {
-            ProductImg.src = SmallImg[1].src;
-        }
-        SmallImg[2].onclick = function () {
-            ProductImg.src = SmallImg[2].src;
-        }
-        SmallImg[3].onclick = function () {
-            ProductImg.src = SmallImg[3].src;
-        }
-    </script>
-
+{% block js %} {% endblock%}
 
 </body>
 
