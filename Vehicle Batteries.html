@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/main-logo.png">
@@ -11,22 +12,20 @@
 </head>
 
 <body>
-    <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/main-logo.png" alt="" / width="125px">
-                    </a>
+                    <img src="images/main-logo.png" alt="" / width="125px">
+                </a>
                 </div>
-                
                 <nav>
                     <ul id="MenuItems">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="products.html">Products</a></li>
-                        <li><a href="account.html">Account</a></li>
-                        <li><a href="Under construction/UC.html">About us</a></li>
+                        <li><a href="">About us</a></li>
                         <li><a href="contact.html">Contacts</a></li>
+                        <li><a href="account.html">Account</a></li>
                     </ul>
                 </nav>
                 <a href="Under construction/UC.html">
@@ -35,49 +34,31 @@
                 </a>
                 <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
             </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Change your Battery, <br />Change your Story.</h1>
-                    <p>
-                        When words becomes dark , I shall wait for Light.<br />When
-                        Images becomes inadequate, I shall be content with silence.
-                    </p>
-                    <a href="products.html" class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="images/main.png" alt="" width="999">
-                </div>
-            </div>
         </div>
-    </div>
+   
 
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="images/category1.png" alt="" />
-                </div>
-                <div class="col-3">
-                    <img src="images/category2.png" alt="" />
-                </div>
-                <div class="col-3">
-                    <img src="images/category3.png" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="small-container">
-        <h2 class="title">Inveters</h2>
+        <div class="row row-2">
+            <h2>Vehicle Batteries</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+            </select>
+        </div>
+
         <div class="row">
             <div class="col-4">
-                <a href="IN1.html">
+                <a href="VBT1.html">
 
-                    <img src="images/INA1.jpg" alt="" />
+                    <img src="images/Screenshot 2023-04-05 122031.png" alt="" />
                 </a>
-                <a href="IN1.html">
+                <a href="VBT1.html">
 
-                    <h4>Super Power Digital UPS Model 900 (12V) DG</h4>
+                    <h4>AMARON FLO Automotive Battery - 42B20L </h4>
                 </a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -86,15 +67,15 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.4199</p>
+                <p>Rs.3999</p>
             </div>
             <div class="col-4">
-                <a href="IN2.html">
+                <a href="VBT2.html">
 
-                <img src="images/INB1.png" alt="" />
+                <img src="images/ML38B20L_Front.jpg" alt="" />
                 </a>
-                <a href="IN2.html">
-                <h4>Luminous Zelio+ 1100 Home Pure Sinewave Inverter UPS - Black</h4>
+                <a href="VBT2.html">
+                <h4>EXIDE MILEAGE(ML38B20L)</h4>
                 </a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -103,14 +84,14 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
                 </div>
-                <p>Rs.6499</p>
+                <p>Rs.3999</p>
             </div>
             <div class="col-4">
-                <a href="IN3.html">
-                <img src="images/jadoo-700-bg.jpg" alt="" />
+                <a href="VBT3.html">
+                <img src="images/44BC211A33_1649486281_zx-40b20l.jpg" alt="" />
                 </a>
-                <a href="IN3.html">
-                <h4>V-Guard Jaadoo 700 Square Wave Inverter</h4>
+                <a href="VBT3.html">
+                <h4>LIVGUARD ZING XTRA ZX 40B20L</h4>
                 </a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -119,14 +100,14 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.3800</p>
+                <p>Rs.3600</p>
             </div>
             <div class="col-4">
-                <a href="IN4.html">
+                <a href="VBT4.html">
                 <img src="images/Livguard i2-Verter LG 1100 Square Wave Inverter.png" alt="" />
                 </a>
-                <a href="IN4.html">
-                <h4>Livguard i2-Verter LG 1100 Square Wave Inverter
+                <a href="VBT4.html">
+                <h4>
                 </h4>
                 </a>
                 <div class="rating">
@@ -136,17 +117,19 @@
                     <i class="fa fa-star-half-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.4700</p>
+                <p>Rs.</p>
             </div>
         </div>
-
-        <h2 class="title">Battery</h2>
         <div class="row">
             <div class="col-4">
-                <a href="BT1.html">
-                <img src="images/Screenshot 2023-03-29 133547.png" alt="" />
-                </a><a href="BT1.html">
-                <h4>Livguard IT 1550TT Inverter Battery</h4></a>
+                <a href="VBT5.html">
+
+                    <img src="images/imerlyn-ups-850-12v-dg-3.png" alt="" />
+                </a>
+                <a href="VBT5.html">
+
+                    <h4></h4>
+                </a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -154,13 +137,115 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.12999</p>
+                <p>Rs.</p>
+            </div>
+            <div class="col-4">
+                <a href="VBT6.html">
+
+                <img src="images/super-power-digital-ups-model-700-12v-dg-3.jpg" alt="" />
+                </a>
+                <a href="VBT6.html">
+                <h4></h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.</p>
+            </div>
+            <div class="col-4">
+                <a href="VBT7.html">
+                <img src="images/energy-saver-digital-ups-model-825-12v-dg-3.jpg" alt="" />
+                </a>
+                <a href="VBT7.html">
+                <h4></h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.</p>
+            </div>
+            <div class="col-4">
+                <a href="VBT8.html">
+                <img src="images/energy-saver-digital-ups-model-825-12v-dg-3.jpg" alt="" />
+                </a>
+                <a href="VBT8.html">
+                <h4>
+                </h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.4100</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="VBT9.html">
+
+                    <img src="images/1-Copy-800x418-1648198578.png" alt="" />
+                </a>
+                <a href="VBT9.html">
+
+                    <h4></h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.</p>
+            </div>
+            <div class="col-4">
+                <a href="VBT10.html">
+
+                <img src="images/Screenshot 2023-03-31 133918.png" alt="" />
+                </a>
+                <a href="VBT10.html">
+                <h4></h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.</p>
+            </div>
+
+            <div class="col-4">
+                <a href="BT1.html">
+                <img src="images/Screenshot 2023-03-29 133547.png" alt="" />
+                </a><a href="BT1.html">
+                <h4></h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.</p>
             </div>
             <div class="col-4">
                 <a href="BT2.html">
                 <img src="images/Screenshot 2023-03-29 135234.png" alt="" /></a>
                 <a href="BT2.html">
-                <h4>Microtek Mtek Power ET648+ 150Ah (36+12)</h4></a>
+                <h4></h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -168,12 +253,15 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
                 </div>
-                <p>Rs.12499</p>
+                <p>Rs.</p>
             </div>
+           
+        </div>
+        <div class="row">
             <div class="col-4">
                 <a href="BT3.html">
                 <img src="images/Screenshot 2023-03-29 135928.png" alt="" /></a><a href="BT3.html">
-                <h4>Luminous Inverlast ILTJ18148 150 Ah Tall Jumbo Inverter Battery</h4></a>
+                <h4></h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -181,12 +269,12 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.12999</p>
+                <p>Rs.</p>
             </div>
             <div class="col-4">
                 <a href="BT4.html">
                 <img src="images/Screenshot 2023-03-29 140808.png" alt="" /></a><a href="BT4.html">
-                <h4>OKAYA OPHT18060 TT Tubular Inverter Battery  (150 AH)</h4></a>
+                <h4></h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -194,14 +282,12 @@
                     <i class="fa fa-star-half-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.12499</p>
+                <p>Rs.</p>
             </div>
-        </div>
-        <div class="row">
             <div class="col-4">
                 <a href="BT5.html">
                 <img src="images/34a2e049-4f9a-4eb0-9070-dccd58e450aa_SC 18060 battery-1.png" alt="" /></a><a href="BT5.html">
-                <h4>LUMINOUS SC 18060 Tubular Inverter Battery  (150Ah)</h4></a>
+                <h4></h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -209,12 +295,12 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.13499</p>
+                <p>Rs.</p>
             </div>
             <div class="col-4">
                 <a href="BT6.html">
                 <img src="images/51b027b4-73ee-4fd8-a645-5809cf152dd2_ILTT 25060 battery-1.png" alt="" /></a><a href="BT6.html">
-                <h4>LUMINOUS ILTT25060 200Ah Tall Tubular Inverter Battery  (200Ah)</h4></a>
+                <h4></h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -222,12 +308,13 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
                 </div>
-                <p>Rs.17999</p>
+                <p>Rs.</p>
             </div>
+
             <div class="col-4">
                 <a href="BT7.html">
                 <img src="images/51IQ0cg718S.jpg" alt="" /></a><a href="BT7.html">
-                <h4>Livguard Invertuff IT1666TT 160AH</h4></a>
+                <h4></h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -235,12 +322,12 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.13999</p>
+                <p>Rs.</p>
             </div>
             <div class="col-4">
                 <a href="BT8.html">
                 <img src="images/Screenshot 2023-03-29 141813.png" alt="" /></a><a href="BT8.html">
-                <h4>Massimo MSC 1800 36X60 TT Tubular Inverter Battery  (150Ah)</h4></a>
+                <h4></h4></a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -248,53 +335,39 @@
                     <i class="fa fa-star-half-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.11999</p>
+                <p>Rs.</p>
             </div>
+            <div class="col-4">
+                <a href="BT9.html">
+                <img src="images/vt-165.jpg" alt="" /></a><a href="BT9.html">
+                <h4></h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.</p>
+            </div>
+            <div class="col-4">
+                <a href="BT10.html">
+                <img src="images/Screenshot 2023-03-31 132004.png" alt="" /></a><a href="BT10.html">
+                <h4></h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.</p>
+            </div>
+        </div>
         </div>
     </div>
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/vehicle battery.png" alt="" class="offer-img" />
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available</p>
-                    <h1>Vehicle Batteries</h1>
-                    <small>
-                        An automotive battery is a rechargeable battery that is used 
-                        to start a motor vehicle. Its main purpose is to provide an electric current
-                        to the electric-powered starting motor, which in turn starts the 
-                        chemically-powered internal combustion engine that actually propels the vehicle.
-                    </small>
-                    <br>
-                    <a href="Vehicle Batteries.html" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
     </div>
 
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/logo-1.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-2.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-3.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-4.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-5.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <div class="footer">
@@ -309,7 +382,6 @@
                     </div>
                 </div>
                 <div class="footer-col-2">
-                  
                     <p><h3>Address</h3> 87/4, Block No. 9, Nand Lal Chauraha, Govind Nagar, Kanpur<br>
                         <h3>Pincode</h3>208006</p>
                 </div>
@@ -352,6 +424,9 @@
             }
         }
     </script>
+
+
+
 </body>
 
 </html>

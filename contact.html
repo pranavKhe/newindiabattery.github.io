@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/main-logo.png">
+    <title>New India Battery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/main-logo.png" alt="" / width="125px">
+                    </a>
+                </div>
+                
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="Under construction/UC.html">About us</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+                <a href="Under construction/UC.html">
+
+                    <img src="images/cart.png" alt="" width="30px" height="30px">
+                </a>
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="area">Area</label>
+                  <select id="area" name="area">
+                    <option>Arya Nagar</option>
+                    <option>Ashok Nagar </option>
+                    <option>Azad Nagar </option>
+                    <option>Bhauti </option>
+                    <option>Barra </option>
+                    <option>Chowk Sarafa </option>
+                    <option>Chunni Ganj </option>
+                    <option>Civil Lines </option>
+                    <option>Darshan Purwa </option>
+                    <option>Defence Colony </option>
+                    <option>Fazalganj </option>
+                    <option>Ghumni Bazar </option>
+                    <option>G.T. Road </option>
+                    <option>Govind Nagar </option>
+                    <option>Indira Nagar </option>
+                    <option>Indrapuri Road </option>
+                    <option>Harjinder Nagar</option> 
+                    <option>Harsh Nagar </option>
+                    <option>Jawahar Nagar </option>
+                    <option>Kakadev </option>
+                    <option>Kalpi Road </option>
+                    <option>Kalyanpur </option>
+                    <option>Kaushal Puri </option>
+                    <option>Kidwai Nagar </option>
+                    <option>Koyla Nagar </option>
+                    <option>Khalasi Line </option>
+                    <option>Lajpat Nagar </option>
+                    <option>Lakhanpur </option>
+                    <option>Lal Bangla </option>
+                    <option>Mall Road </option>
+                    <option>Nirala Nagar </option>
+                    <option>Naubasta </option>
+                    <option>Nayaganj </option>
+                    <option>Pandu Nagar </option>
+                    <option>Panki </option>
+                    <option>Ratan Lal Nagar</option> 
+                    <option>Saket Nagar </option>
+                    <option>Sarvodaya Nagar </option>
+                    <option>Shastri Nagar </option>
+                    <option>Shyam Nagar </option>
+                    <option>Swaroop Nagar </option>
+                    <option>Shanti Nagar </option>
+                    <option>Sharda Nagar </option>
+                    <option>Singhpur </option>
+                    <option>Vikas Nagar </option>
+                    <option>Vishnupuri </option>
+                    <option>Yashoda Nagar </option>
+                    <option>Tatya Tope Nagar </option>
+                    <option>Tilak Nagar </option>
+                    <option>VIP Road </option>
+                  </select><br>
+              
+                  <label for="subject">Subject</label>
+                  <br>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:227px ; width: 1198px ;"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                  
+                    <p><h3>Address</h3> 87/4, Block No. 9, Nand Lal Chauraha, Govind Nagar, Kanpur<br>
+                        <h3>Pincode</h3>208006</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2023 - www.newindiabattery.in</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
